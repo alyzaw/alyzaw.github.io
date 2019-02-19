@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <!-- Bootstrap CDN -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="alyzastyle.css">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   <link href='https://fonts.googleapis.com/css?family=Chivo' rel='stylesheet'>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Humidity Page</title>
+  </head>
+  
+  <body>
+
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+               <a class="navbar-brand" href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\webHW-home.html"><span class="glyphicon glyphicon-home"></span> Latitude</a>
+            </div>
+      
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\comparison-page.html"><span class="glyphicon glyphicon-th-large"></span> Comparison<span class="sr-only">(current)</span></a></li>
+                  <li><a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\data-page.html"><span class="glyphicon glyphicon-list-alt"></span> Data</a></li>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-grain"></span> Posts <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\temp-page.html"><span class="glyphicon glyphicon-fire"></span> Max Temperature</a></li>
+                      <li><a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\cloud-page.html"><span class="glyphicon glyphicon-cloud"></span> Cloudiness</a></li>
+                      <li><a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\humidity-page.html"><span class="glyphicon glyphicon-tint"></span> Humidity</a></li>
+                      <li><a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\wind-page.html"><span class="glyphicon glyphicon-flag"></span> Windiness</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\data-page.html"><span class="glyphicon glyphicon-list-alt"></span> Data</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\comparison-page.html"><span class="glyphicon glyphicon-th-large"></span> Comparison</a></li>
+                  </ul>
+                </li>
+              </ul>              
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+    <!-- Creates the Overall Grid -->
+    <div class="container">
+        <div class="panel panel-default">
+      <!-- Row 1 -->
+      <div class="row">
+        <div class="col-md-12">
+            <h1>Humidity by Latitude</h1>
+        </div>
+      </div>
+
+
+      <hr>
+    <!-- Row 2 -->
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+          <a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\Fig2.png">
+            <img target="_blank" src="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\Fig2.png" alt="Tempurature Map">
+            </a>
+            <p><em>Humidity Map</em></p>
+      </div>
+  
+      <div class="col-sm-12 col-md-6">
+          <br>
+          <br>
+          <p>We did not see any significant correlations between humidity and latitude. 
+            However, we can see that across the world, the weather is much more likely to be humid than dry. 
+            90% of the cities searched had a humidity rate over 50%, and 60% of cities had humidity rate over 75%.</p>
+          
+      </div>
+    </div>
+    </div>
+
+  <br>
+  <div class="panel panel-default">
+  <div class="row">
+      <div class="col-md-12">
+          <h2>Other Visualizations</h2>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\temp-page.html">
+            <img src="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\Fig1.png" alt="Temperature by Latitude" />
+          </a>
+          <p><em>Temperature Map</em></p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\cloud-page.html">
+            <img src="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\Fig3.png" alt="Clouds by Latitude" />
+          </a>
+          <p><em>Cloud Map</em></p>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+              <a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\humidity-page.html">
+              <img src="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\Fig2.png" alt="Humidity by Latitude" />
+            </a>
+            <p><em>Humidity Map</em></p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+              <a href="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\wind-page.html">
+              <img src="C:\Users\Alyza\GWARL201811DATA3\02-Homework\11-Web\Instructions\Resources\Fig4.png" alt="Wind by Latitude" />
+            </a>
+            <p><em>Wind Map</em></p>
+          </div>
+        </div>
+        </div>
+   
+  </body>
+  
+  </html>

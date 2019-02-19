@@ -1,0 +1,61 @@
+body {
+  background: #015249;
+}
+
+h1 {
+    font-family: 'Chivo';
+    font-size: 48px;
+   font-weight: bold;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 26px;
+    color: white;
+    font-family: 'Chivo';
+  }
+
+  h3 {
+    font-size: 26px;
+    color: white;
+    font-family: 'Chivo';
+    text-align: center;
+  }
+  
+  table, th, td {
+    color:  white;
+    font-family: 'Chivo';
+    background-color: #57bc90;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  
+  p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Chivo';
+    line-height: 1.6;
+    text-align: justify
+  }
+
+
+.navbar-default .navbar-brand {
+  background-color: #77c9d4;
+}
+
+.panel {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: #57bc90;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+   background-color: #77c9d4;
+ } 
+
+}

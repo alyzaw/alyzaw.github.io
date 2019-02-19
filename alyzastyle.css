@@ -1,0 +1,66 @@
+body {
+  background: rgb(230, 245, 245)
+}
+
+h1 {
+    font-family: 'Chivo';
+    font-size: 48px;
+   font-weight: bold;
+    color: limegreen;
+  }
+  
+  h2 {
+    font-size: 26px;
+    color: limegreen;
+    font-family: 'Chivo';
+  }
+
+  h3 {
+    font-size: 26px;
+    color: limegreen;
+    font-family: 'Chivo';
+    text-align: center;
+  }
+  
+  table, th, td {
+    color:  limegreen;
+    font-family: 'Chivo';
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  
+  p {
+    font-size: 15px;
+    color: limegreen;
+    font-family: 'Chivo';
+    line-height: 1.6;
+    text-align: justify
+  }
+
+
+  section {
+    background-color: #000;
+  }
+
+.navbar-default .navbar-brand {
+  background-color: lime;
+}
+
+.panel {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+   background-color: lime;
+ } 
+
+ body {
+  background-color: white;
+}
+}

@@ -7,4 +7,4 @@ For this project, we analyzed weather data for an array of randomly selected cit
 
 Using Matplotlib, we plotted various observations of weather occurrences by the city's latitude. We specifically looked at Maximum Temperature, Cloudiness, Humidity Percentage, and Wind Speed. This site displays the source data and visualizations created for this analysis.
 
-To see how I gathered and manipulated this weather data, you can take a look at my [MatplotlibHW repository](https://github.com/alyzaw/MatplotlibHW).
+To see how I gathered and manipulated this weather data, you can take a look at my [API_HW repository](https://github.com/alyzaw/API_HW).
